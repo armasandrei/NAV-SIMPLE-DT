@@ -1,0 +1,52 @@
+/* CSS Reset */
+body{
+    margin: 0;
+    background-color: #333;
+    font-family: 'Oswald', sans-serif;
+ }
+ ul{
+    margin: 0%; 
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.navbar{
+    background-color: #222;
+    font-size: 25px;
+    display: table;
+    width: 100%;
+    /* hei ght: 111px; */}
+
+    .navbar .row{
+ 
+    display: table-row;
+  
+}
+.navbar a{
+    color: white;
+    /* hei ght: 111px; */
+}
+.navbar ul{
+    /* border: 2px solid white; */
+    display: table-cell;
+    /* hei ght: 111px; */
+}
+.navbar li{
+    /* border: 2px solid white; */
+    display: table-cell;
+    padding: 20px 10px;
+    vertical-align: middle;
+    /* hei ght: 111px; */
+}
+.navbar ul.branding{
+    
+   padding-left: 50px;
+   padding-right: 100px;
+   }
+.navbar ul.client{
+    
+  text-align: right;
+   }
+
